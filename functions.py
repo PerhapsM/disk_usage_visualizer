@@ -97,7 +97,9 @@ def get_folder_breakdown(path: str, max_depth: int = 3, current_depth: int = 0) 
     return breakdown
 
 
-def build_sunburst_data(breakdown: Dict, root_id: str) -> Tuple[List[str], List[str], List[int], List[str], List[str]]:
+def build_sunburst_data(
+    breakdown: Dict, root_id: str
+) -> Tuple[List[str], List[str], List[int], List[str], List[str]]:
     """Build sunburst arrays from a folder breakdown structure.
 
     Args:

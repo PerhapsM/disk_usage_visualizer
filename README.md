@@ -8,6 +8,8 @@ This project contains two complementary interfaces:
 - `disk_usage_standalone.py` — lightweight CLI/GUI runner that generates
 	HTML and JSON reports (Plotly charts are optional).
 
+<a href="demo.png"><img src="demo.png" alt="Disk Usage Visualizer demo" style="max-width:100%; height:auto;"/></a>
+
 Key features
 ------------
 
